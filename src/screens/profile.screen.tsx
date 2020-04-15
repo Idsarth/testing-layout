@@ -4,10 +4,12 @@ import {
    View
 } from 'react-native'
 
+import Banner from '../components/banner.component'
+
 const ProfileScreen: React.FC = (): ReactElement => {
    return (
       <View>
-         <Text>ProfileScreen</Text>
+         <Banner source={require('../../assets/images/img-slide-2.jpg')} />
       </View>
    )
 }

@@ -1,13 +1,14 @@
 import React, { ReactElement } from 'react'
 import {
-   Text,
    View
 } from 'react-native'
+
+import Banner from '../components/banner.component'
 
 const SearchScreen: React.FC = (): ReactElement => {
    return (
       <View>
-         <Text>SearchScreen</Text>
+         <Banner source={require('../../assets/images/img-slide-3.jpg')} />
       </View>
    )
 }
